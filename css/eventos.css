@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(56, 54, 54);
+}
+
+.logo-portada{
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: rgb(233, 233, 13);
+    width: 100%;
+    height: 80px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 0;
+    box-sizing: border-box;   
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+}
+
+.items {
+    margin: 15px;
+}
+
+.titulo-general{
+    text-align: center;
+    font-size: xx-large;
+    color: whitesmoke;
+    border-bottom: 1px solid yellow;
+    font-family: 'Oswald', sans-serif;
+}
+
+.descripcion1 {
+    font-size: 33px;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+
+.videos {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: black;
+    height: 600px;
+}
+
+.titulos {
+    text-align:center;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.mark {
+    color: yellow;
+}
+
+
+.hipervinculo { 
+    color: white;
+    text-decoration: underline white;
+    font-size:larger;
+}
